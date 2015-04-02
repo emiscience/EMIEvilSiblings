@@ -19,3 +19,13 @@ Pod::Spec.new do |s|
 
             ### Version
             1.0.0
+            DESC
+            s.homepage     = "https://github.com/emiscience/EMIEvilSiblings"
+            s.license      = { :type => "Non_Specific", :file => "LICENSE" }
+            s.author       = { "Adrian" => "as@emiscience.com" }
+            s.social_media_url   = "http://twitter.com/emiscience"
+            s.platform     = :osx
+            s.requires_arc = true
+            s.source       = { :git => "https://github.com/emiscience/EMIEvilSiblings.git", :tag => "#{version}" }
+            s.source_files = "EMIEvilSiblings"
+            end
